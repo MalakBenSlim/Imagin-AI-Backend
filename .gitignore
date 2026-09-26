@@ -1,0 +1,42 @@
+# ==========================================
+# IMAGIN.AI - Backend
+# ==========================================
+
+# Environment variables / secrets
+env
+.env
+
+# Python virtual environments
+venv/
+.venv/
+venv_styleme/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Generated files
+uploads/
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Debug / temporary files
+debug_face.jpg

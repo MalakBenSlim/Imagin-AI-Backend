@@ -1,0 +1,27 @@
+# ============================================================
+#  IMAGIN.AI — Backend Requirements
+#  Python 3.10+ recommandé
+#  Installation : pip install -r requirements.txt
+# ============================================================
+
+# ── Serveur Web ──────────────────────────────────────────────
+flask==3.0.0
+flask-cors==4.0.0
+werkzeug==3.0.1
+
+# ── Base de données ──────────────────────────────────────────
+psycopg2-binary==2.9.9
+
+# ── Sécurité / Auth ──────────────────────────────────────────
+flask-jwt-extended==4.6.0
+python-dotenv==1.0.1
+
+# ── Traitement d'images ──────────────────────────────────────
+Pillow==10.3.0
+numpy==1.26.4
+
+# ── À ajouter quand les modèles seront prêts ────────────────
+# torch==2.2.2
+# torchvision==0.17.2
+# timm==0.9.16
+# tensorflow==2.15.0
